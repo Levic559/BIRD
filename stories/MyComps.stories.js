@@ -2,7 +2,6 @@ import {Logo} from '../comps/Logo';
 import {Banner} from '../comps/Banner';
 import {BtnStart} from '../comps/BtnStart';
 
-
 export default {
   title: 'My Components'
 }
