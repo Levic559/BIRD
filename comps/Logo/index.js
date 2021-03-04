@@ -21,9 +21,11 @@ function LogoUI(fontSize="84",fontWeight="700"){
 LogoUI.HandleMouseover = (el) =>{
   el.style.opacity = 0.75;
 }
+
 LogoUI.HandleMouseout = (el) =>{
   el.style.opacity = 1;
 }
+
 LogoUI.Handleclick = (el) =>{
   el.style.top = "-20px";
   el.style.fontSize="550%";
