@@ -1,0 +1,20 @@
+{
+  "name": "BIRD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "workflow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levic559/BIRD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Levic559/BIRD/issues"
+  },
+  "homepage": "https://github.com/Levic559/BIRD#readme"
+}
