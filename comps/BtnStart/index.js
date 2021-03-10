@@ -1,6 +1,6 @@
 function BtnStartUI(){
   return`
-  <div style=" 
+  <div id="BtnStart" style=" 
   width:175px;
   height:55px;
   border-radius: 27.5px;
@@ -11,9 +11,23 @@ function BtnStartUI(){
   font-family: Roboto;
   background-color:#C4C4C4;
   color:#454545;
-  ">Let's start</div>
+  "
+  onmouseover="BtnStartUI.mouseover(this)";
+  onmouseout="BtnStartUI.mouseout(this)";
+  onclick="location.href = '../Topics/Topics.html'";
+  
+  >Let's start</div>
   
   `
 }
+BtnStartUI.mouseover = (el) =>{
+  el.style.opacity = 0.75;
+}
 
-export  const BtnStart = BtnStartUI();
+BtnStartUI.mouseout = (el) =>{
+  el.style.opacity = 1;
+}
+
+
+
+// export  const BtnStart = BtnStartUI();

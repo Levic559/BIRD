@@ -1,41 +1,28 @@
-function optionUI ()
-{
-    return`
-    <div style="
-        border-radius: 10px;
-        overflow:hidden;
-        width: 160px;
-        height: 110px;
-        transition: opacity 1s;
-    "
-    onclick="optionUI.HandleClick(this)"
-    >
-        <img style="
-            width: 100%;
-            height: 100%;
-            object-fit:cover;
-        "
-            src="https://placekitten.com/160/110"/>
-    </div>
+function OptionsUI(url=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-r0CpT8B8c18zhR_QILDHZY-ElmV3FZ3vZQ&usqp=CAU"){
+return`
+<div id="Options" style="
+width:180px;
+height:130px;
+border-radius:20px;
+overflow:hidden;
+">
+<img style="
+  height:100%;
+  weight:100%;
+  object-fit:cover;
+ 
+ "
+  src="${url}"/>
 
-    <div style="
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
 
-        position: relative;
-        bottom: 25px;
-        width: 160px;
-        height: 25px;
-        background-color: #C4C4C4;
-        opacity: 0.7;
-        border-radius: 0px 0px 10px 10px;
-    "> COVID-19 </div>
-    `
+<div>
+
+
+
+
+`
+
 }
 
-optionUI.HandleClick = (el) => {
-    el.style.opacity = 0.5;
-}
 
-export const option = optionUI()
+// export  const Options = OptionsUI();
