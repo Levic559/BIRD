@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   background-color: #C4C4C4;
+  align-items: center;
  
 }
 .header{
@@ -31,4 +32,18 @@
 .bgcWhite{
   background-color: #fff;
 }
-.move
+.optionArea{
+  width: 300px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: rgb(236, 236, 236);
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.optionArea_Top20{
+margin-top:20px;
+
+}

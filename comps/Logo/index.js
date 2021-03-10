@@ -1,6 +1,6 @@
 function LogoUI(fontSize="84",fontWeight="700", Scolor="grey"){
   return`
-  <div style=" 
+  <div id="Logo" style=" 
   font-size:${fontSize}px;
   font-weight:${fontWeight};
   font-family: Roboto;
@@ -8,7 +8,7 @@ function LogoUI(fontSize="84",fontWeight="700", Scolor="grey"){
   color:#E95719;
   text-shadow:3px 3px 3px ${Scolor} ;
   transition: opactity 0.3s; left 0.5s;
-  opacity:1; 
+  opacity:1;"
   onmouseover="LogoUI.HandleMouseover(this)";
   onmouseout="LogoUI.HandleMouseout(this)";
   onclick="LogoUI.Handleclick(this)";
