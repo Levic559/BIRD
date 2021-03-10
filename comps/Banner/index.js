@@ -1,4 +1,4 @@
-function BannerUI(text="Covid-19"){
+function BannerUI(){
   return`
   <div style=" 
   width:414px;
@@ -6,13 +6,13 @@ function BannerUI(text="Covid-19"){
   font-size:20px;
   line-height: 35px;
   text-align: center;
-  font-weight:700;
+  font-weight:400;
   font-family: Roboto;
   background-color:#E09EFF;
   color:#454545;
-  ">${text}</div>
+  ">Covid-19</div>
   
   `
 }
 
-// export  const Banner = BannerUI();
+export  const Banner = BannerUI();
