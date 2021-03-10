@@ -75,6 +75,12 @@ body {
   align-self: center;
 }
 
+.doctor {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .infographicImg {
   width: 200px;
   height: 184px;

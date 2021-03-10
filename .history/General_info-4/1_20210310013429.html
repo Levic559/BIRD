@@ -27,8 +27,7 @@
       </div>
       <div class="BtnPages"></div>
       <div class="Speaker">
-        <img src="../assets/doctor-hand.svg" onmouseover="HandleDoctorOn()" 
-        onmouseout="HandleDoctorOut()" class="doctor">
+        <img src="../assets/doctor-hand.svg" class="doctor">
       </div>
     </div>
 </div>
@@ -41,15 +40,10 @@
   function HandleDoctorOn ()
   {
     document.querySelector(".doctor").src ="../assets/doctor.svg"
-    document.querySelector(".doctor").style.width = "100%"
-    document.querySelector(".doctor").style.height = "100%"
   }
   function HandleDoctorOut ()
   {
     document.querySelector(".doctor").src ="../assets/doctor-hand.svg"
-    document.querySelector(".doctor").style.width = ""
-    document.querySelector(".doctor").style.height = ""
-
   }
 </script>
 </html>

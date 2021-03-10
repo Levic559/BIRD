@@ -75,6 +75,11 @@ body {
   align-self: center;
 }
 
+.imgindiv {
+  width: 100%;
+  height: 100%;
+}
+
 .infographicImg {
   width: 200px;
   height: 184px;
@@ -83,11 +88,9 @@ body {
 
 .infographicQ {
   padding-left: 20px;
-  padding-right: 20px;
 }
 
 .infographicText {
-  font-size: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 40px;
+  padding: 20px;
 }

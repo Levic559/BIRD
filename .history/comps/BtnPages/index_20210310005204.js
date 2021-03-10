@@ -29,7 +29,6 @@ function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999", lastPage="../Ge
             "
             onmouseover='BtnPagesUI.HandleMouseOver2(this)'
             onmouseout='BtnPagesUI.HandleMouseOut2(this)'
-            onclick='window.location.href="../General_info-1/1.html"'
             ></div>
             <div style="
                 width: 16px;
@@ -40,7 +39,6 @@ function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999", lastPage="../Ge
             "
             onmouseover='BtnPagesUI.HandleMouseOver2(this)'
             onmouseout='BtnPagesUI.HandleMouseOut2(this)'
-            onclick='window.location.href="../General_info-3/1.html"'
             ></div>
             <div style="
                 width: 16px;
@@ -51,7 +49,6 @@ function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999", lastPage="../Ge
             "
             onmouseover='BtnPagesUI.HandleMouseOver2(this)'
             onmouseout='BtnPagesUI.HandleMouseOut2(this)'
-            onclick='window.location.href="../General_info-5/1.html"'
             ></div>
 
             <div style ="

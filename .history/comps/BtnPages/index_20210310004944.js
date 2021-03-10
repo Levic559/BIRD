@@ -13,7 +13,7 @@ function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999", lastPage="../Ge
                 font-size: 25px;
                 font-weight: bold;
                 color: #545454;
-                transition: text-shadow 0.3s;
+                transition: text-shadow 0.5s;
             "
             onmouseover='BtnPagesUI.HandleMouseOver1(this)'
             onmouseout='BtnPagesUI.HandleMouseOut1(this)'
@@ -25,40 +25,37 @@ function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999", lastPage="../Ge
                 height: 16px;
                 border-radius: 50%;
                 background-color: #FF7A00;
-                transition: border 0.3s;
+                transition: border 0.5s;
             "
             onmouseover='BtnPagesUI.HandleMouseOver2(this)'
             onmouseout='BtnPagesUI.HandleMouseOut2(this)'
-            onclick='window.location.href="../General_info-1/1.html"'
             ></div>
             <div style="
                 width: 16px;
                 height: 16px;
                 border-radius: 50%;
                 background-color: ${circleTwo};
-                transition: border 0.3s;
+                transition: border 0.5s;
             "
             onmouseover='BtnPagesUI.HandleMouseOver2(this)'
             onmouseout='BtnPagesUI.HandleMouseOut2(this)'
-            onclick='window.location.href="../General_info-3/1.html"'
             ></div>
             <div style="
                 width: 16px;
                 height: 16px;
                 border-radius: 50%;
                 background-color: ${circleThree};
-                transition: border 0.3s;
+                transition: border 0.5s;
             "
             onmouseover='BtnPagesUI.HandleMouseOver2(this)'
             onmouseout='BtnPagesUI.HandleMouseOut2(this)'
-            onclick='window.location.href="../General_info-5/1.html"'
             ></div>
 
             <div style ="
                 font-size: 25px;
                 font-weight: bold;
                 color: #545454;
-                transition: text-shadow 0.3s;
+                transition: text-shadow 0.5s;
             "
             onmouseover='BtnPagesUI.HandleMouseOver1(this)'
             onmouseout='BtnPagesUI.HandleMouseOut1(this)'
