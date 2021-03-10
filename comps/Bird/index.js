@@ -2,49 +2,27 @@ function BirdUI(){
 return`
 
 <div id="Bird"
-style="
-background-image= url(../Assets/body.svg);"
-
->
-<div id="body" style="
-width:200px;
-background-image= url(../Assets/body.svg);"
-
-
-
->
-
-
-
-
-
+style ="
+width:250%;
+height:250%;
+background-image:url(../Assets/bird.svg);
+background-repeat: no-repeat;
+z-index:1;
+margin-top:-300px;
+margin-left:25px;
+Opacity:0; 
+"onload="swipwind" >
 </div>
-
-<div  id="wind1" 
-style="
-width:200px;
-background-image= url(../Assets/wind1.svg)"
-
-
-
-></div>
-
-<div id="wind2"
-style="
-width:200px;
-background-image= url(../Assets/wind2.svg)>"</div>
-
-
-
-</div>
-
-
-
 
 `
 
-
 }
-
-
+function swipwind(){
+stepNumber = stepNumber + 1
+   if(stepNumber >= 6)
+   {
+       stepNumber = 0
+   }
+   bird.style.src = 'url "../Assets/bird" + stepNumber + ".svg"'
+  }
 // export  const Bird = BirdUI();

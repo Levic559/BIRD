@@ -14,15 +14,17 @@
   flex-direction: column;
   background-color: #C4C4C4;
   border: 1px solid ;
+  overflow: hidden;
  
 }
 #header{
   width: 414px;
-  height: 85px;
+  height: 100px;
   display: flex;
   justify-content: center;
   opacity: 0.15;
   position: relative;
+  
 }
 
 .bgcWhite{
@@ -75,7 +77,16 @@
   }
 }
 
-
+@keyframes flyBird {
+  0% {
+     margin-left:-700px; margin-top:-250px;  }
+  30%{
+    margin-left:-300px; margin-top:-300px;  }
+  65%{
+    margin-left:-150px; margin-top:-250px;  }
+  100%{
+    margin-left:25px;margin-top:-300px;  }
+}
 
 
 #subtitle{
@@ -97,5 +108,8 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
  
-
 }
+
+
+
+
