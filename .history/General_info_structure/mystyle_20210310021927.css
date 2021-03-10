@@ -37,8 +37,7 @@ body {
 
 .infographic {
   width: 376px;
-  min-height: 480px;  
-  max-height: 480px;  
+  height: 480px;
   margin-top: 20px;
   background-color: white;
   border-radius: 20px;
@@ -66,7 +65,7 @@ body {
 .BtnPages {
   align-self: center;
   position: relative;
-  bottom: 50px;
+  top: 50px;
 }
 
 .Speaker {
@@ -77,11 +76,10 @@ body {
 }
 
 .infographicImg {
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 184px;
   overflow: hidden;
 }
-
 
 .infographicQ {
   padding-left: 20px;

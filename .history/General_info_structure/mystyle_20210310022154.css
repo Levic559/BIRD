@@ -37,8 +37,7 @@ body {
 
 .infographic {
   width: 376px;
-  min-height: 480px;  
-  max-height: 480px;  
+  height: 480px;
   margin-top: 20px;
   background-color: white;
   border-radius: 20px;
@@ -77,11 +76,16 @@ body {
 }
 
 .infographicImg {
-  width: 300px;
+  width: 500px;
   height: 200px;
   overflow: hidden;
 }
 
+.infoImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .infographicQ {
   padding-left: 20px;
