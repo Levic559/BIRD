@@ -14,7 +14,7 @@ function BtnStartUI(){
   "
   onmouseover="BtnStartUI.mouseover(this)";
   onmouseout="BtnStartUI.mouseout(this)";
-  onclick="BtnStartUI.click(this)";
+  onclick="location.href = '../Topics/Topics.html'";
   
   >Let's start</div>
   
@@ -28,8 +28,6 @@ BtnStartUI.mouseout = (el) =>{
   el.style.opacity = 1;
 }
 
-BtnStartUI.click = (el) =>{
-  el.document.location.href = "../Topics/Topics.html";
-}
+
 
 // export  const BtnStart = BtnStartUI();
