@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap{
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.pages{
+  margin: 0 auto;
+  width: 414px;
+  height: 898px;
+  display: flex;
+  flex-direction: column;
+  background-color: #C4C4C4;
+  overflow: hidden;
+}
+.header{
+  width: 414px;
+  height: 85px;
+  padding-left: 10px;
+}
+.banner{
+  width: 414px;
+  height: 35px;
+  margin: 0 ;
+  padding: 0;
+}
+.bgcWhite{
+  background-color: #fff;
+}
+
+.infographic {
+  width: 376px;
+  min-height: 480px;  
+  max-height: 480px;  
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 20px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.triangle {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+  left: 35px;
+  bottom: 15px;
+}
+
+.triangleimg {
+  width: 100%;
+  height: 100%;
+}
+
+.BtnPages {
+  align-self: center;
+  position: relative;
+  bottom: 50px;
+}
+
+.Speaker {
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  align-self: center;
+}
+.head{
+  color: #C4C4C4;
+  position: absolute;
+  margin-right: 170px;
+  margin-top: 230px;
+  
+}
+.head2{
+  color: #C4C4C4;
+  position: absolute;
+  margin-right: 180px;
+  margin-top: 430px;
+  
+}
+
+.infographicImg{
+  
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 250px;
+}
+.infographicImg2{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin-top: 280px;
+  margin-right: 255px;
+  overflow: hidden;
+}
+.infographicImg3{
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  margin-top: 300px;
+  margin-right: 150px;
+  overflow: hidden;
+}
+.infographicImg4{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 270px;
+  margin-right: 60px;
+  overflow: hidden;
+}
+.infographicImg5{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin-top: 360px;
+  margin-right: 110px;
+  overflow: hidden;
+}
+.infographicImg6{
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  margin-top: 300px;
+  margin-right: 200px;
+  overflow: hidden;
+}
+.infographicImg7{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 250px;
+  margin-right: 49px;
+  overflow: hidden;
+}
+.infographicImg8{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-top: 250px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.infographicImg9{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-top: 243px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.infographicImg10{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-top: 267px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+
+.infographicQ {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.infographicText {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.infographicText1{
+  font-size: 15px;
+  display: flex;
+  position: absolute;
+  margin-top: 100px;
+  margin-right: 150px;
+}
+.infographicText2{
+  font-size: 15px;
+  display: flex;
+  align-items: ;
+  position: absolute;
+  margin-top: 100px;
+  margin-right: 150px;
+}
