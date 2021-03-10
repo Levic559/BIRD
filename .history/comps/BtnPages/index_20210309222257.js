@@ -24,28 +24,19 @@ function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999")
                 height: 16px;
                 border-radius: 50%;
                 background-color: #FF7A00;
-            "
-            onmouseover='BtnPagesUI.HandleMouseOver(this)'
-            onmouseout='BtnPagesUI.HandleMouseOut(this)'
-            ></div>
+            "></div>
             <div style="
                 width: 16px;
                 height: 16px;
                 border-radius: 50%;
                 background-color: ${circleTwo};
-            "
-            onmouseover='BtnPagesUI.HandleMouseOver(this)'
-            onmouseout='BtnPagesUI.HandleMouseOut(this)'
-            ></div>
+            "></div>
             <div style="
                 width: 16px;
                 height: 16px;
                 border-radius: 50%;
                 background-color: ${circleThree};
-            "
-            onmouseover='BtnPagesUI.HandleMouseOver(this)'
-            onmouseout='BtnPagesUI.HandleMouseOut(this)'
-            ></div>
+            "></div>
 
             <div style ="
                 font-size: 25px;

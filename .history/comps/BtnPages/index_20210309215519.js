@@ -5,7 +5,6 @@ function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999")
             display: flex;
             flex-direction: row;
             max-width: 228px;
-            min-width: 228px;
             justify-content: space-between;
             align-items: center;
         ">
@@ -13,10 +12,9 @@ function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999")
                 font-size: 25px;
                 font-weight: bold;
                 color: #545454;
-                transition: text-shadow 0.5s;
+                transition: opacity 1s;
             "
-            onmouseover='BtnPagesUI.HandleMouseOver(this)'
-            onmouseout='BtnPagesUI.HandleMouseOut(this)'
+            onclick='BtnPagesUI.HandleClick(this)'
             > <<< </div>
 
             <div style="
@@ -24,48 +22,34 @@ function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999")
                 height: 16px;
                 border-radius: 50%;
                 background-color: #FF7A00;
-            "
-            onmouseover='BtnPagesUI.HandleMouseOver(this)'
-            onmouseout='BtnPagesUI.HandleMouseOut(this)'
-            ></div>
+            "></div>
             <div style="
                 width: 16px;
                 height: 16px;
                 border-radius: 50%;
                 background-color: ${circleTwo};
-            "
-            onmouseover='BtnPagesUI.HandleMouseOver(this)'
-            onmouseout='BtnPagesUI.HandleMouseOut(this)'
-            ></div>
+            "></div>
             <div style="
                 width: 16px;
                 height: 16px;
                 border-radius: 50%;
                 background-color: ${circleThree};
-            "
-            onmouseover='BtnPagesUI.HandleMouseOver(this)'
-            onmouseout='BtnPagesUI.HandleMouseOut(this)'
-            ></div>
+            "></div>
 
             <div style ="
                 font-size: 25px;
                 font-weight: bold;
                 color: #545454;
-                transition: text-shadow 0.5s;
+                transition: opacity 1s;
             "
-            onmouseover='BtnPagesUI.HandleMouseOver(this)'
-            onmouseout='BtnPagesUI.HandleMouseOut(this)'
+            onclick='BtnPagesUI.HandleClick(this)'
             > >>> </div>
         </div>
     `
 }
 
 BtnPagesUI.HandleMouseOver = (el) => {
-    el.style.textShadow = "0px 0px 10px black"
-}
-
-BtnPagesUI.HandleMouseOut = (el) => {
-    el.style.textShadow = "0px 0px 0px #545454"
+    el.style.textShadow = "0px 0px 4px black"
 }
 
 //export const BtnPages = BtnPagesUI()
