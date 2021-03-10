@@ -11,7 +11,7 @@ export default {
 // export const MyLogo = () => Logo;
 
 // export const MyBanner = () => Banner;【
-export const MyBtnStart = () => BtnStart;
+// export const MyBtnStart = () => BtnStart;
 export const MyBtnBack = () => BtnBack;
 // export const MyUsers = () => Users;
 // export const MyChannel = () => Channel;
