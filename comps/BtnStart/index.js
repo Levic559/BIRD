@@ -16,4 +16,4 @@ function BtnStartUI(){
   `
 }
 
-// export  const BtnStart = BtnStartUI();
+export  const BtnStart = BtnStartUI();
