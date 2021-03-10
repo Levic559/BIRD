@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap{
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.pages{
+  margin: 0 auto;
+  width: 414px;
+  height: 898px;
+  display: flex;
+  flex-direction: column;
+  background-color: #C4C4C4;
+}
+.header{
+  width: 414px;
+  height: 85px;
+  padding-left: 10px;
+}
+.banner{
+  width: 414px;
+  height: 35px;
+  margin: 0 ;
+  padding: 0;
+}
+.bgcWhite{
+  background-color: #fff;
+}
+
+.infographic {
+  width: 376px;
+  height: 480px;
+  background-color: white;
+  border-radius: 50px;
+}
