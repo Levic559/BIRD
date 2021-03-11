@@ -1,22 +1,37 @@
-function BtnBackUI(fontSize="20",fontWeight="600"){
-  return`
-  <div style=" 
-  font-size:${fontSize}px;
-  font-weight:${fontWeight};
-  font-family: Roboto;
-  position:absolute;
-  color:#353535;
-  
-  transition: opactity 0.3s; left 0.5s;
-  opacity:1;
-  "
-  onmouseover="LogoUI.HandleMouseover(this)";
-  onmouseout="LogoUI.HandleMouseout(this)";
-  onclick="LogoUI.Handleclick(this)";
-  > <span style=" font-size: 24px; font-weight:500;
-  "><<<</span> Back</div>
-  
-  `
+function BtnBackUI () {
+    return`
+    <div style="
+        display: flex;
+        flex-direction: row;
+        max-width: 129px;
+        justify-content: space-between;
+        align-items: center;
+        transition: opacity 1s;
+    "
+    onclick='BtnPagesUI.HandleClick(this)'
+    >
+        <div style="
+            font-size: 30px;
+            font-weight: bold;
+            color: #545454;
+            
+        "
+
+        > <<< </div>
+
+        <div style="
+            font-size: 25px;
+            color: #545454;
+        "
+
+        >Back</div>
+
+    </div>
+
+
+    `
 }
 
-export  const BtnBack = BtnBackUI();
+BtnBackUI.HandleClick = (el) => {
+    el.style.opacity = 0.5;
+}
