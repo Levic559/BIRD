@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank you</title>
+  <link rel="stylesheet" href="../4-6styles/mystyle.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrap">
+    <div class="pages">
+      <div class="header"></div>
+      <div class="banner"></div>
+      <div class="infographic" style="justify-content: space-evenly;">
+        <p class="infographicText" style="font-size: 30px;">
+          Thank you!
+        </p>
+        <p class="infographicText">
+          If you want to learn more, feel free to check out our app BIRD, which is currently being developed.
+        </p>
+
+        <p class="infographicText" style="font-size: 30px;">
+          Stay safe!
+        </p>
+
+      </div>
+      <div class="triangle">
+        <img src="../assets/chat-triangle.svg" class="triangleimg">
+      </div>
+      <div class="BtnPages"></div>
+      <div class="Speaker">
+        <img src="../assets/doctor-hand.svg" onmouseover="HandleDoctorOn()" 
+        onmouseout="HandleDoctorOut()" class="doctor">
+      </div>
+    </div>
+</div>
+</body>
+<script src="../4-6styles/1_animations.js"></script>
+<script src="../comps/Logo/index.js"></script>
+<script src="../comps/Banner/index.js"></script>
+<script src="../comps/BtnPages/index.js"></script>
+<script src="1.js"></script>
+<script>
+  function HandleDoctorOn ()
+  {
+    document.querySelector(".doctor").src ="../assets/doctor.svg"
+    document.querySelector(".doctor").style.width = "100%"
+    document.querySelector(".doctor").style.height = "100%"
+  }
+  function HandleDoctorOut ()
+  {
+    document.querySelector(".doctor").src ="../assets/doctor-hand.svg"
+    document.querySelector(".doctor").style.width = ""
+    document.querySelector(".doctor").style.height = ""
+  }
+</script>
+</html>
