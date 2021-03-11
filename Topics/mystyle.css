@@ -50,6 +50,7 @@ height:75px;
 display: flex;
 flex-direction: column;
 align-items:center;
+font-family: Roboto;
 
 
 }
@@ -67,4 +68,8 @@ align-items:center;
   }
   .reMove{
     display:none;
+  }
+
+  .moveBack{
+    margin-top: 75px;
   }

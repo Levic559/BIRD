@@ -9,10 +9,9 @@ overflow:hidden;
 display:flex;
 flex-direction: column;
 "
-ondblclick="location.href = '${Site}'";
+onclick="location.href = '${Site}'";
 onmouseover="OptionsUI.mouseover(this)";
 onmouseout="OptionsUI.mouseout(this)";
-onclick="changeIntro("Covid19")";
 > 
 <div style=" 
 height:20px;
@@ -47,10 +46,6 @@ OptionsUI.mouseover = (el) =>{
 OptionsUI.mouseout = (el) =>{
   el.style.opacity = 1;
 }
-function changeIntro(){
-  var element = document.getElementById("Intro");
-  element.style.innerHTML ="Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus."
-   
-}
+
 
 // export  const Options = OptionsUI();
