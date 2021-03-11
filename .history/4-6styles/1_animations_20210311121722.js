@@ -56,11 +56,8 @@ function washhands () {
 
 function cough () {
     var cough = document.getElementById("cough")
-    cough.style.WebkitAnimation = "appear 0.5s linear"
-    cough.style.opacity = 1;
-
-    var button = document.getElementById("safetyButton")
-    button.style.display = "none"
+    cough.style.WebkitAnimation = "appear 0.5 linear"
+    
 }
 
 
