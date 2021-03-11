@@ -1,0 +1,23 @@
+{
+  "name": "bird",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bcitd3/mdia2109-2021-ex3.git",
+  "author": "HenryBCIT <hleung70@bcit.ca>",
+  "license": "MIT",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@storybook/addon-actions": "^6.1.20",
+    "@storybook/addon-essentials": "^6.1.20",
+    "@storybook/addon-links": "^6.1.20",
+    "@storybook/html": "^6.1.20",
+    "babel-loader": "^8.2.2"
+  }
+}
