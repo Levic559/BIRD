@@ -12,6 +12,7 @@ function LogoUI(fontSize="84",fontWeight="700", Scolor="grey"){
   onmouseover="LogoUI.HandleMouseover(this)";
   onmouseout="LogoUI.HandleMouseout(this)";
   onclick="location.href = '../topics/topics.html'";
+  ondblclick="location.href = '../landing/landing.html'";
   >BIRD</div>
   
   `
