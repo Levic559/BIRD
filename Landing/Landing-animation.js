@@ -1,6 +1,6 @@
 function myFunction() {
   var LogoUI = document.getElementById("header");
-  LogoUI.style.WebkitAnimation = "mymove 2s linear";
+  LogoUI.style.WebkitAnimation = "mymove 1.5s linear";
   LogoUI.style.top= "350px";
   LogoUI.style.opacity= "1";
 
@@ -20,12 +20,21 @@ function flyBird(){
    var Bird = document.getElementById("Bird");
    Bird.style.WebkitAnimation = "flyBird 2s linear";
    Bird.style.opacity= "1";
-   
 
 }
 
-setTimeout(showSubtitle,2300)
-setTimeout(showButton,2500)
-setTimeout(flyBird,2500)
+function swipwind1(){
+  var wind1 = document.getElementById("wind1");
+  wind1.style.WebkitAnimation = "swipwind1 1s linear 5";
+}
+function swipwind2(){
+  var wind2 = document.getElementById("wind2");
+  wind2.style.WebkitAnimation = "swipwind2 1s linear 5";
+}
+swipwind1()
+swipwind2()
+setTimeout(showSubtitle,1800)
+setTimeout(showButton,2000)
+setTimeout(flyBird,2300)
 
 onload = myFunction

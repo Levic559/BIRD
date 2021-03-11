@@ -11,7 +11,7 @@ function LogoUI(fontSize="84",fontWeight="700", Scolor="grey"){
   opacity:1;"
   onmouseover="LogoUI.HandleMouseover(this)";
   onmouseout="LogoUI.HandleMouseout(this)";
-  onclick="LogoUI.Handleclick(this)";
+  onclick="location.href = '../Topics/Topics.html'";
   >BIRD</div>
   
   `
@@ -26,8 +26,7 @@ LogoUI.HandleMouseout = (el) =>{
 }
 
 LogoUI.Handleclick = (el) =>{
-  el.style.top = "-20px";
-  el.style.fontSize="550%";
+  
 }
 
 // export  const Logo = LogoUI();

@@ -79,16 +79,37 @@
 
 @keyframes flyBird {
   0% {
-     margin-left:-700px; margin-top:-250px;  }
+     margin-left:-500px; margin-top:-150px;  }
   30%{
-    margin-left:-300px; margin-top:-300px;  }
+    margin-left:-300px; margin-top:-100px;  }
   65%{
-    margin-left:-150px; margin-top:-250px;  }
+    margin-left:-150px; margin-top:-150px;  }
   100%{
-    margin-left:25px;margin-top:-300px;  }
+    margin-left:-25px;margin-top:-100px;  }
 }
 
-
+@keyframes swipwind1 {
+  0% {
+    transform: scaleY(1); width:100%;margin-top: -537.5px;margin-left:-55px;
+  }
+  50%{
+    transform: scaleY(.75); width:100%;margin-top: -567.5px;margin-left:-55px;
+     }
+  100%{
+    transform: scaleY(1);width:100%;margin-top: -537.5px;margin-left:-55px;
+}
+}
+@keyframes swipwind2 {
+  0% {
+     transform: scaleY(.9); width:70%;margin-top: -570px;margin-left:85px;
+  }
+  50%{
+    transform: scaleY(.45); width:70%;margin-top: -550px;margin-left:85px;
+     }
+  100%{
+    transform: scaleY(.9);width:70%;margin-top: -570px;margin-left:85px;
+  }
+}
 #subtitle{
   margin-top: 375px;
   text-align: center;

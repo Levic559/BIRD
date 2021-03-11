@@ -11,6 +11,7 @@ function BtnStartUI(){
   font-family: Roboto;
   background-color:#C4C4C4;
   color:#454545;
+  z-index:5;
   "
   onmouseover="BtnStartUI.mouseover(this)";
   onmouseout="BtnStartUI.mouseout(this)";
