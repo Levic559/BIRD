@@ -22,9 +22,14 @@
           We can also keep our public spaces well ventilated
         </p>
         <div class="infographicImg">
-          <!--Add Click interaction-->
-          <img src="../assets/window-closed.svg">
+          
+          <img src="../assets/window-closed.svg" id="window">
         </div>
+
+        <div class="safetyButton" id="safetyButton" onclick="openwindow()">
+          Click for safety
+        </div>
+
       </div>
       <div class="triangle">
         <img src="../assets/chat-triangle.svg" class="triangleimg">
@@ -37,6 +42,7 @@
     </div>
 </div>
 </body>
+<script src="../4-6styles/1_animations.js"></script>
 <script src="../comps/logo/index.js"></script>
 <script src="../comps/banner/index.js"></script>
 <script src="../comps/btnpages/index.js"></script>
@@ -53,6 +59,15 @@
     document.querySelector(".doctor").src ="../assets/doctor-hand.svg"
     document.querySelector(".doctor").style.width = ""
     document.querySelector(".doctor").style.height = ""
+  }
+
+  function openwindow ()
+  {
+    windowopen = document.querySelector("#window")
+    windowopen.src = "../assets/window-open.svg"
+
+    button = document.querySelector("#safetyButton")
+    button.style.display = "none"
   }
 </script>
 </html>

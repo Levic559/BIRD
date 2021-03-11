@@ -25,6 +25,22 @@
           <!--Add Click interaction-->
           <img src="../assets/patient-cough.svg">
         </div>
+
+        <div class="infographicImg" 
+        style="
+          position: absolute;
+          top: 407px;
+          opacity: 0;
+        "
+        id="cough"
+        >
+          <img src="../assets/patient-covermouth.svg" >
+        </div>
+
+        <div class="safetyButton" id="safetyButton" onclick="cough()">
+          Click for safety
+        </div>
+
       </div>
       <div class="triangle">
         <img src="../assets/chat-triangle.svg" class="triangleimg">
@@ -37,9 +53,10 @@
     </div>
 </div>
 </body>
+<script src="../4-6styles/1_animations.js"></script>
 <script src="../comps/logo/index.js"></script>
 <script src="../comps/banner/index.js"></script>
-<script src="../comps/btnpages/index.js"></script>
+<script src="../comps/btnPages/index.js"></script>
 <script src="6.js"></script>
 <script>
         function HandleDoctorOn ()
