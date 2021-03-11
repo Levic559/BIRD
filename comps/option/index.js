@@ -1,4 +1,4 @@
-function OptionsUI(id="Options", url=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-r0CpT8B8c18zhR_QILDHZY-ElmV3FZ3vZQ&usqp=CAU", Site="../Covid-19_Options/Covid-19_Options.html" 
+function OptionsUI(id="Options", url=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-r0CpT8B8c18zhR_QILDHZY-ElmV3FZ3vZQ&usqp=CAU", Site="../Covid-19_Options/covid-19_options.html" 
 ,text="Covid-19"){
 return`
 <div id="${id}" style="

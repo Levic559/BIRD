@@ -1,4 +1,4 @@
-function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999", lastPage="../General_info_structure/General_info-1.html", nextPage="../General_info_structure/General_info-1.html")
+function BtnPagesUI (circleTwo="#9A9999", circleThree="#9A9999", lastPage="../covid-19_options/covid-19_options.html", nextPage="2.html")
 {                                                             
     return`
         <div style="
