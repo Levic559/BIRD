@@ -25,11 +25,11 @@ function flyBird(){
 
 function swipwind1(){
   var wind1 = document.getElementById("wind1");
-  wind1.style.WebkitAnimation = "swipwind1 1s linear 5";
+  wind1.style.WebkitAnimation = "swipwind1 1s linear 10";
 }
 function swipwind2(){
   var wind2 = document.getElementById("wind2");
-  wind2.style.WebkitAnimation = "swipwind2 1s linear 5";
+  wind2.style.WebkitAnimation = "swipwind2 1s linear 10";
 }
 swipwind1()
 swipwind2()
