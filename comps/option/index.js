@@ -8,7 +8,6 @@ border-radius:20px;
 overflow:hidden;
 display:flex;
 flex-direction: column;
-
 "
 ondblclick="location.href = '${Site}'";
 onmouseover="OptionsUI.mouseover(this)";
