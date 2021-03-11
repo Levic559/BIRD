@@ -5,7 +5,7 @@ return`
 style ="
 // width:250%;
 // height:250%;
-//  background-image:url(../Assets/bird.svg);
+//  background-image:url(../assets/bird.svg);
 background-repeat: no-repeat;
 z-index:1;
 margin-top: -100px;

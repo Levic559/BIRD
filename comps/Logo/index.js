@@ -11,7 +11,7 @@ function LogoUI(fontSize="84",fontWeight="700", Scolor="grey"){
   opacity:1;"
   onmouseover="LogoUI.HandleMouseover(this)";
   onmouseout="LogoUI.HandleMouseout(this)";
-  onclick="location.href = '../Topics/Topics.html'";
+  onclick="location.href = '../topics/topics.html'";
   >BIRD</div>
   
   `

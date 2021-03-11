@@ -15,7 +15,7 @@ function BtnStartUI(){
   "
   onmouseover="BtnStartUI.mouseover(this)";
   onmouseout="BtnStartUI.mouseout(this)";
-  onclick="location.href = '../Topics/Topics.html'";
+  onclick="location.href = '../topics/topics.html'";
   
   >Let's start</div>
   
