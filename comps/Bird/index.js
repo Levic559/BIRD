@@ -17,7 +17,7 @@ Opacity:0;
 style ="
 width:250px;
 height:450px;
- background-image:url(../Assets/body.svg);
+ background-image:url(../assets/body.svg);
 background-repeat: no-repeat;
 z-index:1;
 Opacity:1; position:relative"
@@ -28,7 +28,7 @@ Opacity:1; position:relative"
 style  ="
 width:275px;
 height:450px;
- background-image:url(../Assets/wind1.svg);
+ background-image:url(../assets/wind1.svg);
 background-repeat: no-repeat;
 z-index:2;
 Opacity:1; position:relative;
@@ -42,7 +42,7 @@ margin-left:-60px;
 style ="
 width:165px;
 height:450px;
- background-image:url(../Assets/wind2.svg);
+ background-image:url(../assets/wind2.svg);
 background-repeat: no-repeat;
 z-index:0;
 Opacity:1; position:relative;
